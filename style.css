@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height:100vh;
+}
+#curcle{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 200px;
+width: 200px;
+background-color:slateblue;
+border-radius: 100px;
+font-size: 1.5rem;
+ color: #fff;
+ cursor: pointer;
+ transition: cubic-bezier(0.875, 0.62, 0.165,1) 2s;
+ margin-left: 35rem;
+}
+.hover{
+    transform: scale(3);
+
+}
